@@ -1,0 +1,211 @@
+body {
+  position: relative;
+}
+.main-body {
+}
+.header {
+  min-height: 80vh;
+  background-color: rgb(200, 236, 236);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+img {
+  display: block;
+}
+.cloud-1 {
+  position: absolute;
+  top: 5px;
+  right: 14%;
+}
+
+.about {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.about h1 {
+  color: rgb(17, 177, 177);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: normal;
+}
+.about-img {
+  margin: 0 auto;
+  height: 274px;
+  width: 274px;
+}
+.about p {
+  max-width: 26rem;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.art {
+  border-bottom: dotted;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* justify-self: center; */
+  max-width: 5rem;
+
+}
+.skill-sect {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.skill {
+  text-align: center;
+  display: flex;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 30px;
+}
+.skill-sect h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  padding-bottom: 37px;
+  color: rgb(17, 177, 177);
+}
+.skill-img {
+  width: 300px;
+}
+.skill h1 {
+  text-align: justify;
+  margin-top: 0;
+  color: rgb(17, 177, 177);
+}
+.skill p {
+  max-width: 50%;
+}
+.skill-text {
+  /* align-items: start; */
+}
+.gallery{
+  margin-top: 50px;
+  /* min-height: 50vh; */
+
+}
+.gallery h2 {
+  text-decoration: underline rgb(70, 240, 240) 5px;
+line-height: 1.5;
+padding: 2.5rem;
+}
+.img-gallery{
+  display: flex;
+  width: 350px;
+  /* max-height: 350px; */
+}
+.scale {
+  width: 128%;
+  transition: 0.3s;
+}
+.scale:hover{
+  transform: scale(1.1);
+}
+.faculty {
+  display: flex;
+  /* max-width: 550px; */
+}
+.faculty h2 {
+  text-align: justify;
+}
+.faculty-content {
+  gap: 20px;
+}
+.faculty-content p {
+  /* width: 50%; */
+}
+.faculty .faculty-img img {
+  width: 75%;
+}
+
+article h2 {
+  text-align: center;
+  color: green;
+  text-decoration: underline color: rgb(17, 177, 177);;
+  text-transform: capitalize;
+}
+
+.gallery {
+  background-color: gray;
+  /* height: 80vh; */
+}
+
+aside{
+  text-align: center;
+}
+aside h4 {
+  font-size: 24px;
+ 
+  margin-top: 57px;
+}
+
+aside .aside {
+  color: rgb(13, 128, 128);
+  text-align: center;
+  text-transform: capitalize;
+}
+aside p {
+  font-size: 17px;
+}
+.bt {
+  text-align: right;
+}
+.btn {
+  text-align: center;
+  color: #fff;
+  background-color: rgb(19, 247, 247);
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  padding: 9px 10px;
+ 
+}
+.btn:hover {
+  background-color: rgb(129, 235, 129);
+}
+
+footer {
+  background-color: rgb(37, 119, 119);
+  margin-top: 10px;
+  padding: 20px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content:center;
+  list-style: none;
+}
+footer ul li {
+  margin: 0 25px;
+  text-decoration: none;
+}
+
+footer ul li  a {
+  text-decoration: none;
+  color:#fff;
+  font-size: 18px;
+  transition: 0.3s ease;
+}footer ul li  a:hover {
+color: #ff6347;
+transform: scale(1.1);
+}
+.footer-p {
+  padding: 10px 0;
+  border-top: 1px solid #444;
+  text-align: center;
+}
+.footer-p p{
+font-size: 14px;
+color: #bbb;
+margin: 10px 0;
+}
